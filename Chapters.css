@@ -1,0 +1,57 @@
+/*CSS Selector*/
+button:hover {
+    background-color: orange;
+    color:white;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button {
+    background-color: orangered;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Selector{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+div span{
+    padding-right  : 100px;
+}
+
+/*CSS Imagenes y la zona en la que estan*/
+
+.Chapter{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Chapter img{
+    width: 800px;
+    height: 14444px;
+}
+  
+
+
